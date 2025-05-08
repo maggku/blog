@@ -75,7 +75,7 @@ WSGI_APPLICATION = 'blog.wsgi.application'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
 DATABASES = {
-    'default': dj_database_url.parse(os.environ.get("DATABASE_URL"))
+    'default': dj_database_url.parse(os.environ.get("postgresql://neondb_owner:npg_sZ9wvULdn2yH@ep-black-dust-a2w1n0fn.eu-central-1.aws.neon.tech/acid_mount_food_110926"))
 }
 
 
